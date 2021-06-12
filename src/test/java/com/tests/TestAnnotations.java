@@ -13,8 +13,8 @@ public class TestAnnotations {
 
 
 
-    @Test
-    public void test1() {
+    @Test(priority = 6)
+    public void test5(){
         System.out.println("Test1");
     }
 
@@ -27,7 +27,7 @@ public class TestAnnotations {
     public void test3() {
         System.out.println("Test3");
     }
-    @Test
+    @Test(priority = 8)
     public void test4() {
         System.out.println("Test4");
     }
